@@ -1,0 +1,36 @@
+demo code from codeshow.codeplex.com
+section is not standalone unlike article
+SVG - Scalable Vector Graphics
+SVG v/s Canvas
+	SVG is performance intensive
+	Canvas is good for performance
+CSS - Cascading StyleSheets
+
+ECMA - does not stands for anything
+European Computer Manufacturers Association
+
+BOX PROPERTIES
+offset > margin > border > padding > CONTENT
+
+JS Promises
+http://blog.parse.com/2013/01/29/whats-so-great-about-javascript-promises/
+https://gist.github.com/domenic/3889970
+http://www.javascriptturnsmeon.com/promises-in-javascript/
+http://flaviocopes.com/deferred-and-promises-in-javascript/
+http://blogs.msdn.com/b/ie/archive/2011/09/11/asynchronous-programming-in-javascript-with-promises.aspx
+
+Certification Links
+http://www.free-online-exams.com/Pages/Exams/ExamsListSearch.aspx?filter=70-480
+http://codeshow.codeplex.com/
+http://www.palermo4.com/page/HTML5.aspx
+http://www.palermo4.com/page/CSS3.aspx
+http://www.bloggedbychris.com/2012/09/19/microsoft-exam-70-480-study-guide/
+http://geekswithblogs.net/WTFNext/archive/2012/10/08/exam-70-480-study-material-programming-in-html5-with-javascript-and.aspx
+http://blog.adnanmasood.com/2012/12/15/study-notes-for-70-480-programming-html5-and-css-3-microsoft-exam/
+http://blog.beckybertram.com/Lists/Exam%2070480%20Study%20Guide/AllItems.aspx
+http://arian-celina.com/2012/12/21/my-impressions-on-70-480-certification/
+http://spviking.com/2012/12/08/70-480-exam-preparation-guide/
+http://red-folder.blogspot.com/2012/11/70-480-day-1.html
+http://blog.beckybertram.com/Lists/Exam%2070480%20Study%20Guide/AllItems.aspx
+http://msdn.microsoft.com/en-us/hh549253.aspx
+http://ldomokos.wordpress.com/2012/11/05/70-480-certification/

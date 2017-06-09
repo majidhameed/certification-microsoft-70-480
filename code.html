@@ -1,0 +1,57 @@
+<input type="text" required />
+<input type="email" required placeholder="you@domain.com" />
+<input type="url" placeholder="http://www.you.com" />
+<input type="phone" pattern"\d\d\d\-\d\d\d\d" />
+
+<audio src="some.mp3" controls></audio>
+
+<audio controls autoplay loop preload="auto">
+<source src="some.ogg" />
+<source src="some.mp3" />
+Your browser does not support audio!
+</audio>
+
+<video src="some.mp4" controls></video>
+<video controls autoplay loop muted>
+<source src="some.webm" />
+<source src="some.mp4" />
+Your browser does not support video!
+</video>
+
+<video width="400" height="300">...</video>
+
+<video preload="none" poster="some.jpg">
+</video>
+
+<canvas id="can" width="200" height="200">
+	Your browser does not support canvas!
+</canvas>
+<script type="text/javascript">
+document.getElementById("can");
+var ctx = canvas.getContext("2d");
+ctx.fillStyle= "rgb(0,0,255)";
+ctx.fillRect(10,10,180,180);
+</script>
+
+<svg width="200" height="200">
+	<rect fill="rgb(0,0,255)"
+	x="10"
+	y="10"
+	width="180"
+	height="180"/>
+</svg>
+
+// Declarative Event Handling
+<button id="btn" onclick="handler();">Click!</button>
+<script type="text/javascript">
+function handler(){};
+</script>
+
+// Programmatic Event Handling
+<button id="btn">Click!</button>
+<script type="text/javascript">
+function handler(){};
+var b = document.querySelctory("#btn");
+b.addEventListener("click",handler);
+</script>
+

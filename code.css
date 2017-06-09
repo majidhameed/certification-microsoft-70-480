@@ -1,0 +1,117 @@
+@font-face
+//define a font to be used in CSS
+@font-face {
+	font-family: "nifty-font";
+	src: url("/type/nifty_n.woff") format(woff)
+}
+
+.nifty {
+	font-family: nifty-font;
+}
+
+// Display
+.vanish {
+	display: none;
+}
+.centered {
+	display:table-cell;
+	min-height:200px;
+	min-width:200px;
+	text-align:center;
+	vertical-align:middle;
+	border:1px solid #ff4444;
+}
+
+table {color:red;}
+
+ul {color:red;}
+
+.fancy {color:red;}
+
+.bold {font-weight:bold;}
+//OR
+*.bold {font-weight:bold;}
+
+* Universal type selector
+
+div.fancy{color:red;}
+#lorem{color:red;}
+
+// Attribute selector
+
+*[data-author] {color:red;}
+or 
+[data-author] {color:red;}
+[data-author=psmith] {color:red;}
+[data-author$=smith] {color:red;}
+[data-author^=psmi] {color:red;}
+
+[data-author^='psmi'] {color:red;}
+// ' is not required if there is no space
+
+[data-author^='psmi'] {color:red;}
+
+[data-author*=smith] {color:red;}
+
+// Selector Chaining
+table, ul {color:red;}
+
+// Pseudo Element selector
+// first letter of paragraph
+p::first-letter {color:red;}
+p::first-line {color:red}
+
+p:hover {color:red}
+
+:hover {color:red}
+// OR
+*:hover {color:red}
+
+// any descendent
+#Div1 div {color:red;}
+
+#Div1 p {color:red;}
+
+// direct descendent / immediate child
+#Div1 > p {color:red;}
+
+// sibblings after not before
+ul ~ p {color:red;}
+
+// immediate sibblings
+ul + table {color:red;}
+
+// all except 1st one
+li + li {color:red;}
+
+li:first-child{color:red;}
+li:nth-child(1){color:red;}
+
+// nth-child is not zero based
+
+// nth of ul that is 1st ul will be red
+ul:nth-of-type(1){color:red;}
+
+// Almost 300+ CSS properties
+
+p {color:goldenrod;}
+p {color:#000000;}
+p {color:#fff;}
+p {color:#0000ff;}
+p {color:#00f;}
+p {color:rgb(0,255,0);}
+p {color:rgba(0,255,0,0.5);} // opacity 
+p {color:hsl(0,50%,50%);}
+p {color:hsla(0,50%,50%,0.4);} // opacity
+p {opacity:0.5};
+
+table {text-shadow: 2px 2px 2px red,0 0 10px blue; font-size:24pt;}
+p {font-weight:lighter} // is from 100 to 900
+
+.css columns .columns
+
+#lorem {margin:20px;}
+#lorem {padding:20px;}
+#lorem {border:2px solid red;}
+
+#lorem {border:20px solid black;width:200px; box-sizing:border-box;}
